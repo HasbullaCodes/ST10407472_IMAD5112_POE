@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EditTextOne"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/results"
+        android:layout_marginTop="-3dp"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EditTextTwo"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/EditTextOne"
+        android:layout_marginTop="-207dp"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="302dp"
+        android:text="Add"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Subtract"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:text="Multiply"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/Div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Divide"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
